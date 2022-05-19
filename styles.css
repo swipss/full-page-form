@@ -84,6 +84,15 @@ h1 {
     font-size: 12px;
     margin-bottom: 5px;
 }
+.error::after {
+    content: '* Password do not match';
+    font-size: 12px;
+    color: red;
+    
+}
+.password {
+    border: 1px solid red
+}
 
 .button-container {
     padding: 30px 40px;
