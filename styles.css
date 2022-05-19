@@ -143,3 +143,12 @@ a {
     /* background: linear-gradient(0.25turn, #f69c3c73, #ebf8e172, #3f87a67d); */
 }
 
+@media only screen and (max-width: 600px) {
+    .form-container > div {
+            flex-direction: column;
+    }
+    .image-container {
+        display: none;
+    }
+}
+
