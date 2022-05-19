@@ -76,7 +76,7 @@ h1 {
     outline: none;
     -webkit-appearance: none;
     appearance: none;
-    border: 1px solid #05886F;
+    border: 1px solid #FEC802;
     box-shadow: 2px 2px 7px rgb(0, 0, 0, .5)
 }
 
@@ -90,6 +90,11 @@ h1 {
     color: red;
     
 }
+
+span {
+    color: #FEC802;
+}
+
 .password {
     border: 1px solid red
 }
@@ -99,17 +104,24 @@ h1 {
 }
 
 .button-container button{
-    color: white;
-    background: #05886F;
+    background: none;
+    border: 2px solid #FEC802;
     margin-bottom: 20px;
-    border: none;
     padding: 15px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
+    font-size: 1rem;
+    transition: all .3s ease;
+}
+
+.button-container button:hover {
+    color: white;
+    background: #FEC802;
+    transform: translateY(-5px);
 }
 
 a {
-    color: #596D48;
+    color: #FEC802;
     text-decoration: none;
 }
 
@@ -119,9 +131,10 @@ a {
 .image-container {
     width: 60%;
     height: 100vh;
-    background-image: url(background.jpg);
+    background-image: url(signup.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
 }
 
 .logo-container {
